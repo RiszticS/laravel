@@ -46,19 +46,22 @@ Az alkalmazás most már elérhető a `http://127.0.0.1:8000` címen.
 
 ## Funkcionalitás
 
+### Kezdőlap (Home)
+
+![Kezdőlap](readme/home.png)
+
 ### Karakterek (Characters)
 - Létrehozás, módosítás, törlés
 - Lista megjelenítés
 
-![Karakterek](readme/chacters.png)
+![Karakterek](readme/characters.png)
 
-### Helyszínek (Locations)
+### Helyszínek (Places)
 - Helyszínek kezelése
 - Karakterek hozzárendelése helyszínekhez
 
-### Mérkőzések (Matches)
-- Mérkőzések létrehozása karakterek között
-- Mérkőzés eredmények tárolása
+![Helyszínek](readme/places.png)
+
 
 ## Használt technológiák
 - Laravel 11
