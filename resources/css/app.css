@@ -1,0 +1,65 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+/* Body */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8fafc;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+}
+
+/* Main Content */
+#app {
+    margin-top: 2rem;
+}
+
+/* Authentication Links */
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-item:hover {
+    background-color: #f8fafc;
+    color: #000000;
+}
